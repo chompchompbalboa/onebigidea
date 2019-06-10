@@ -2,21 +2,22 @@
 // Imports
 //-----------------------------------------------------------------------------
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
-import Donate from './pages/Donate'
-import Home from './pages/Home'
+import styled from 'styled-components'
 
 //-----------------------------------------------------------------------------
 // Component
 //-----------------------------------------------------------------------------
-const App = () => (
-  <Router>
-    <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/donate" component={Donate}/>
-    </Switch>
-  </Router>
-)
+const Donate = () => {
+  return (
+    <Container>
+      Donate
+    </Container>
+  )
+}
 
-export default App
+//-----------------------------------------------------------------------------
+// Styled Components
+//-----------------------------------------------------------------------------
+const Container = styled.div``
+
+export default Donate
