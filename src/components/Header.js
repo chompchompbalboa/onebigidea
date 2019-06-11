@@ -9,18 +9,10 @@ import Logo from './Logo'
 //-----------------------------------------------------------------------------
 // Component
 //-----------------------------------------------------------------------------
-const Landing = () => {
+const Header = () => {
   return (
     <Container>
-      <LogoContainer>
-        <Logo />
-      </LogoContainer>
-      <Header>
-        one big idea:
-      </Header>
-      <Paragraph>
-        If Congress doesn't do their job, they shouldn't have a job.
-      </Paragraph>
+      <Logo size="4.5vh"/>
     </Container>
   )
 }
@@ -29,18 +21,10 @@ const Landing = () => {
 // Styled Components
 //-----------------------------------------------------------------------------
 const Container = styled.div`
-  padding: 0 7vw;
+  position: fixed;
+  top: 0;
+  padding: 2vh 0;
+  width: 100%;
 `
 
-const LogoContainer = styled.div`
-  margin: 10vh 0 5vh 0;
-`
-
-const Header = styled.h1``
-
-const Paragraph = styled.div`
-  margin-bottom: 3vh;
-  font-size: 1.65rem;
-`
-
-export default Landing
+export default Header

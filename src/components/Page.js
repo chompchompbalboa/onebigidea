@@ -2,41 +2,26 @@
 // Imports
 //-----------------------------------------------------------------------------
 import React from 'react'
-import { string } from 'prop-types'
 import styled from 'styled-components'
-
-import logo from '../images/logo.png'
 
 //-----------------------------------------------------------------------------
 // Component
 //-----------------------------------------------------------------------------
-const LogoContainer = ({
-  size
+const Page = ({
+  children
 }) => {
   return (
     <Container>
-      <StyledImage
-        size={size}
-        src={logo}/>
+      {children}
     </Container>
   )
 }
 
 //-----------------------------------------------------------------------------
-// Props
-//-----------------------------------------------------------------------------
-LogoContainer.propTypes = {
-  size: string
-}
-
-//-----------------------------------------------------------------------------
 // Styled Components
 //-----------------------------------------------------------------------------
-const Container = styled.div``
-
-const StyledImage = styled.img`
-  height: ${ props => props.size };
-  width: auto;
+const Container = styled.div`
+  padding: 6vw 6vw 0 6vw;
 `
 
-export default LogoContainer
+export default Page
