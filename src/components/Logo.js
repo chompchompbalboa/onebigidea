@@ -4,23 +4,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Logo from './Logo'
-
+import logo from '../images/logo.png'
 //-----------------------------------------------------------------------------
 // Component
 //-----------------------------------------------------------------------------
-const Landing = () => {
+const LogoContainer = () => {
   return (
     <Container>
-      <LogoContainer>
-        <Logo />
-      </LogoContainer>
-      <Header>
-        one big idea:
-      </Header>
-      <Paragraph>
-        If Congress doesn't do their job, they shouldn't have a job.
-      </Paragraph>
+      <StyledImage src={logo}/>
     </Container>
   )
 }
@@ -28,19 +19,11 @@ const Landing = () => {
 //-----------------------------------------------------------------------------
 // Styled Components
 //-----------------------------------------------------------------------------
-const Container = styled.div`
-  padding: 0 7vw;
+const Container = styled.div``
+
+const StyledImage = styled.img`
+  width: 40vw;
+  height: auto;
 `
 
-const LogoContainer = styled.div`
-  margin: 10vh 0 5vh 0;
-`
-
-const Header = styled.h1``
-
-const Paragraph = styled.div`
-  margin-bottom: 3vh;
-  font-size: 1.65rem;
-`
-
-export default Landing
+export default LogoContainer
