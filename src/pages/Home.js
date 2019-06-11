@@ -14,29 +14,32 @@ import Page from '../components/Page'
 const Home = () => {
 	return (
 		<Page>
-			<Header />
+      <Header />
 			<Tile
         fontSize="1.7rem"
-        height="100vh">
+        height="80vh">
 				<Landing>
           <Text color="#F97873">
 						We solve problems by coming together&nbsp;
 					</Text>
           <Text color="#1A5FF8">
-            to work on one big idea at a time
+            to work on <b>one big idea</b> at a time
           </Text>
 				</Landing>
 			</Tile>
       <Tile>
-        <BigIdea>The problem:</BigIdea>
+        <TileHeader>The problem:</TileHeader>
         Only 18% of Americans approve of the work Congress is doing.<br /><br />
-				If our boss only approved of 18% of the work we did, we'd probably lose our job.<br /><br />
-        We think Congress should be held similarly accountable.<br /><br />
+        We think Congress needs some incentive to do better.<br /><br />
 			</Tile>
 			<Tile>
-        <BigIdea>Our big idea:</BigIdea>
-				Pass a constitutional amendment stating that if less than 40% of the American people approve of the work Congress is doing, no member is eligible for re-election
+        <TileHeader>Our big idea:</TileHeader>
+        Pass a constitutional amendment stating that if less than 40% of the American people approve of the work Congress is doing, no member is eligible for re-election<br /><br />
 			</Tile>
+      <Tile>
+        <TileHeader>Why this will work:</TileHeader>
+        Currently, individual congressman or congresswoman don't have much incentive to work with members they disagree with. <br /><br />
+      </Tile>
 		</Page>
 	)
 }
@@ -50,7 +53,7 @@ const Text = styled.span`
   color: ${ props => props.color };
 `
 
-const BigIdea = styled.h2`
+const TileHeader = styled.h2`
 `
 
 export default Home
