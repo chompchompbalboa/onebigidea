@@ -4,26 +4,37 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Logo from './Logo'
-
 //-----------------------------------------------------------------------------
 // Component
 //-----------------------------------------------------------------------------
-const Header = () => {
-  return (
-    <Container>
-    </Container>
-  )
+const Tile = ({ 
+  children,
+	fontSize,
+	height
+}) => (
+  <Container
+		containerFontSize={fontSize}
+		containerHeight={height}>
+    {children}
+  </Container>
+)
+//-----------------------------------------------------------------------------
+// Props
+//-----------------------------------------------------------------------------
+Tile.defaultProps = {
+	height: 'auto',
+	fontSize: '1rem'
 }
 
 //-----------------------------------------------------------------------------
 // Styled Components
 //-----------------------------------------------------------------------------
 const Container = styled.div`
-  position: fixed;
-  top: 0;
-  padding: 2vh 0;
-  width: 100%;
+	min-height: ${ props => props.containerHeight };
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: ${ props => props.containerFontSize };
 `
 
-export default Header
+export default Tile
