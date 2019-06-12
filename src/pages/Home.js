@@ -114,7 +114,7 @@ const TileHeader = styled.h2`
 const TileContent = styled.div``
 
 const LargeText = styled.span`
-  font-size: 1.15em;
+  font-size: 1.5em;
   font-weight: bold;
 `
 

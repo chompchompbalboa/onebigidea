@@ -32,7 +32,7 @@ const Tile = ({
 Tile.defaultProps = {
   backgroundColor: 'transparent',
 	height: 'auto',
-  fontSize: '1rem',
+  fontSize: '1.25rem',
   margin: '0',
   padding: '0',
   textAlign: 'left',
