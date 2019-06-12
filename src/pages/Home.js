@@ -30,8 +30,9 @@ const Home = () => {
       <Tile>
         <TileHeader>The problem:</TileHeader>
         <TileContent>
-          Only <LargeText>18%</LargeText> of Americans approve of the work Congress is doing. Less than <LargeText>10%</LargeText> believe Congress has their best interests in mind when writing legislation.<br /><br />
-          We think Congress needs some <LargeText>incentive to do better.</LargeText><br /><br />
+          Only <LargeText>18%</LargeText> of Americans approve of the work Congress is doing. <br /><br />
+          Less than <LargeText>10%</LargeText> believe Congress has their best interests in mind when writing legislation.<br /><br />
+          Congress needs <LargeText>incentive to do better.</LargeText><br /><br />
         </TileContent>
 			</Tile>
       <SpacerContainer>
@@ -40,17 +41,7 @@ const Home = () => {
 			<Tile>
         <TileHeader>The big idea:</TileHeader>
         <TileContent>
-          We want to pass a <LargeText>constitutional amendment</LargeText> stating that if <LargeText>less than 40%</LargeText> of the American people approve of the work Congress is doing, <LargeText>no member is eligible for re-election</LargeText><br /><br />
-        </TileContent>
-			</Tile>
-      <SpacerContainer>
-        <Spacer />
-      </SpacerContainer>
-      <Tile>
-        <TileHeader>Why we think this will work:</TileHeader>
-        <TileContent>
-          We've built a system that rewards politicians for their refusal to compromise. What we need to do instead is build a system to <LargeText>reward politicians for working together.</LargeText><br /><br />
-          We all know there's no greater reward to a politician than <LargeText>re-election</LargeText> - with this amendment, they have to <LargeText>earn that right by working together to gain the approval of the American People.</LargeText>
+          A constitutional amendment stating that if <LargeText>less than 40%</LargeText> of the American people approve of the work Congress is doing, <LargeText>no member is eligible for re-election</LargeText><br /><br />
         </TileContent>
       </Tile>
       <Tile
@@ -62,11 +53,11 @@ const Home = () => {
         textAlign="center">
         <TileContent>
           <b>
-          <Text color="#1A5FF8">
-            If Congress can't do their job&nbsp;
+            <Text color="#1A5FF8">
+              If Congress can't do their job,&nbsp;
           </Text>
-          <Text color="#fd5650">
-            they shouldn't have their job.
+            <Text color="#fd5650">
+              they shouldn't have their job.
           </Text>
           </b>
         </TileContent>
@@ -74,7 +65,7 @@ const Home = () => {
       <Tile>
         <TileHeader>We need your help:</TileHeader>
         <TileContent>
-          We're at the very beginning of this journey. Right now, our focus is on <LargeText>raising public awareness</LargeText> on the idea - and we're relying on you and your <LargeText>word of mouth</LargeText> to help us out.<br/><br/>
+          Right now, our focus is on <LargeText>raising public awareness.</LargeText> We're relying on you and your <LargeText>word of mouth</LargeText> to help us out.<br/><br/>
           We also need your <LargeText>time and money.</LargeText> Please take a look at the available <LargeText>volunteer</LargeText> openings. If you have the ability to, please <LargeText>donate</LargeText> using the links below.
         </TileContent>
       </Tile>
@@ -94,7 +85,6 @@ const Home = () => {
         <LargeText>
           one big idea.
         </LargeText>
-        based in seattle, wa<br/>
         <em>a registered 527 organization</em>
       </Tile>
 		</Page>
