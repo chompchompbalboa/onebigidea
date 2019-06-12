@@ -108,13 +108,13 @@ const Text = styled.span`
   color: ${ props => props.color };
 `
 
-const TileHeader = styled.h2`
+const TileHeader = styled.h1`
 `
 
 const TileContent = styled.div``
 
 const LargeText = styled.span`
-  font-size: 1.5em;
+  font-size: 1.35em;
   font-weight: bold;
 `
 
