@@ -20,10 +20,10 @@ const Home = () => {
         height="80vh">
 				<TileContent>
           <Text color="#fd5650">
-						We <LandingLargeText>solve problems</LandingLargeText> by coming together&nbsp;
+						Let's<LandingLargeText> solve a problem</LandingLargeText><br/>
 					</Text>
           <Text color="#1A5FF8">
-            to work on <LandingLargeText>one big idea</LandingLargeText> at a time
+          with <LandingLargeText>one big idea</LandingLargeText>
           </Text>
 				</TileContent>
 			</Tile>
