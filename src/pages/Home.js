@@ -38,7 +38,7 @@ const Home = () => {
         <Spacer />
       </SpacerContainer>
 			<Tile>
-        <TileHeader>Our big idea:</TileHeader>
+        <TileHeader>The big idea:</TileHeader>
         <TileContent>
           We want to pass a <LargeText>constitutional amendment</LargeText> stating that if <LargeText>less than 40%</LargeText> of the American people approve of the work Congress is doing, <LargeText>no member is eligible for re-election</LargeText><br /><br />
         </TileContent>
