@@ -12,7 +12,6 @@ import Logo from './Logo'
 const Header = () => {
   return (
     <Container>
-      <Logo size="4.5vh"/>
       <Donate>
         Donate
       </Donate>
@@ -30,7 +29,7 @@ const Container = styled.div`
   padding: 4.5vh 6vw;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 60%, rgba(255,255,255,0.2) 100%);
 `

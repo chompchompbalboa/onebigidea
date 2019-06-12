@@ -19,7 +19,7 @@ const Home = () => {
         fontSize="1.7rem"
         height="80vh">
 				<TileContent>
-          <Text color="#F97873">
+          <Text color="#fd5650">
 						We <LandingLargeText>solve problems</LandingLargeText> by coming together&nbsp;
 					</Text>
           <Text color="#1A5FF8">
@@ -65,7 +65,7 @@ const Home = () => {
           <Text color="#1A5FF8">
             If Congress can't do their job&nbsp;
           </Text>
-          <Text color="#F97873">
+          <Text color="#fd5650">
             they shouldn't have their job.
           </Text>
           </b>
@@ -124,6 +124,7 @@ const LandingLargeText = styled.span`
 `
 
 const SpacerContainer = styled.div`
+  margin: 3vh 0;
   width: 100%;
   display: flex;
   jusfify-content: center;
