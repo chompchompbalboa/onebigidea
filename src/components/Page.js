@@ -21,7 +21,7 @@ const Page = ({
 // Styled Components
 //-----------------------------------------------------------------------------
 const Container = styled.div`
-  padding: 6vw 6vw 0 6vw;
+  padding: 6vw;
 `
 
 export default Page

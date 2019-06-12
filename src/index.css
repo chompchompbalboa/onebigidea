@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	background-color: rgb(253, 253, 253);
@@ -8,7 +12,6 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	box-sizing: border-box;
 }
 
 code {
