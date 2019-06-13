@@ -65,7 +65,7 @@ const Home = () => {
       <Tile>
         <TileHeader>We need your help:</TileHeader>
         <TileContent>
-          Right now, our focus is on <LargeText>getting the word out.</LargeText> and building the organizational capacity to tackle an idea of this scale<br/><br/>
+          Right now, our focus is on <LargeText>getting the word out.</LargeText> and finding the <LargeText>right people</LargeText> to help tackle an idea of this scale<br/><br/>
           If you're interested in helping, we need your <LargeText>time and money.</LargeText> Please take a look at the available <LargeText>volunteer</LargeText> openings. If you have the ability to, please <LargeText>donate</LargeText> using the links below.
         </TileContent>
       </Tile>
