@@ -31,7 +31,7 @@ const Home = () => {
         <TileHeader>The problem:</TileHeader>
         <TileContent>
           Only <LargeText>18%</LargeText> of Americans approve of the work Congress is doing. <br /><br />
-          Less than <LargeText>10%</LargeText> believe Congress has their best interests in mind when writing legislation.<br /><br />
+          Less than <LargeText>10%</LargeText> believe Congress has their constituents' best interests in mind when writing legislation.<br /><br />
           Congress needs <LargeText>incentive to do better.</LargeText><br /><br />
         </TileContent>
 			</Tile>
@@ -54,10 +54,10 @@ const Home = () => {
         <TileContent>
           <b>
             <Text color="#1A5FF8">
-              If Congress can't do their job,&nbsp;
+              If Congress doesn't do their job,&nbsp;
           </Text>
             <Text color="#fd5650">
-              they shouldn't have their job.
+              why should they have their job?
           </Text>
           </b>
         </TileContent>
@@ -65,7 +65,7 @@ const Home = () => {
       <Tile>
         <TileHeader>We need your help:</TileHeader>
         <TileContent>
-          Right now, our focus is on <LargeText>getting the word out.</LargeText> and finding the <LargeText>right people</LargeText> to help tackle an idea of this scale<br/><br/>
+          Right now, our focus is on <LargeText>getting the word out.</LargeText> and finding the <LargeText>right people</LargeText> to help tackle this idea<br/><br/>
           If you're interested in helping, we need your <LargeText>time and money.</LargeText> Please take a look at the available <LargeText>volunteer</LargeText> openings. If you have the ability to, please <LargeText>donate</LargeText> using the links below.
         </TileContent>
       </Tile>
